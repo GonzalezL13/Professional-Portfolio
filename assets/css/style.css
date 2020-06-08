@@ -21,9 +21,11 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 32px;
-    margin: 10px;
+    margin: 10px 0;
     padding: 3px 3px 3px 50px;
     background-color: #b6c8dd;
+    
+    
 }
 
 header a {
@@ -32,7 +34,7 @@ header a {
 }
 
 header nav {
-    margin:20px 0;
+    margin:25px 50px 0 0;
 }
 
 header nav ul {
@@ -44,7 +46,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     font-size: 20px;
     color: #b6c8dd;
@@ -52,4 +54,26 @@ header nav ul li a {
 }
 .link {
     border-bottom: 3px solid #b6c8dd;
+}
+
+/*HERO STYLE*/
+.hero {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/blue-keyboard.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h3 {
+    background-color: #b6c8dd;
+    width: 12%;
+    padding: 5px;
+    text-align: center;
+    left: 1;
+    right: 0;
+    margin: 0 50px;
+    top: 44%;
+    position: absolute;
 }
