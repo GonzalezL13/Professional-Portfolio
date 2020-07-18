@@ -6,6 +6,9 @@ body {
     color: #142d4e;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #b6c8dd;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
 
 /*HEADER STYLE STARTS*/
@@ -33,6 +36,9 @@ header a {
 
 header nav {
     margin:25px 50px 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 header nav ul {
@@ -81,6 +87,9 @@ header nav ul li a {
 /*HERO STYLE ENDS*/
 
 /*PAGE STYLE STARTS CONTENT AND HEADINGS*/
+
+
+
 .wrapper {
     max-width: 88%;
     margin-left: auto;
@@ -108,7 +117,7 @@ header nav ul li a {
     line-height: 1.1;
 }
 
-.page-section > div {
+.pageSection > div {
     flex: 0 0 77%;
 }
   
@@ -116,6 +125,62 @@ header nav ul li a {
     margin-bottom: 20px;
 }
   
-
+/*PAGE STYLE CONTENT AND HEADINGS ENDS*/
     
+/*GRID CONTAINER SECTION*/
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /*grid-template-rows: minmax(150px, 1fr);*/
+    column-gap: 5px;
+    row-gap: 5px;
 }
+
+.grid-item {
+    border: 5px solid #142d4e;
+    grid-column: span 4;
+    min-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #597dac;
+    background-blend-mode: soft-light;
+    font-size: .9rem;
+    background-size: 150%;
+    color: #b6c8dd;
+    text-decoration: none;
+}
+
+.surf-report {
+    background-image: url("/assets/images/surfreport.jpg");
+}
+.led-wall {
+    background-image: url("/assets/images/ledwall.jpg");
+}
+.pastel-puzzles {
+    background-image: url("/assets/images/pastelpzzl.jpg");
+}
+.run-buddy {
+    background-image: url("/assets/images/runbuddy.png");
+}
+.xpensifi {
+    background-image: url("/assets/images/xpensifi.png");
+}
+
+.grid-item:first-child {
+    grid-row: span 2;
+    grid-column: span 6;
+}
+
+.grid-item div {
+    background-color: #142d4e;
+    padding: 4px 8px;
+}
+
+.grid-item h4 {
+    font-size: 1.1rem;
+}
+
+.grid-item:hover {
+    background-color: #00000000;
+  }
+/*GRID CONTAINER ENDS*/
