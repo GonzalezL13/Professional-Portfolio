@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -55,6 +53,7 @@ header nav ul li a {
 .link {
     border-bottom: 3px solid #b6c8dd;
 }
+/*HEADER STYLE ENDS*/
 
 /*HERO STYLE*/
 .hero {
@@ -64,16 +63,59 @@ header nav ul li a {
     background-image: url("../images/blue-keyboard.jpg");
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .hero h3 {
     background-color: #b6c8dd;
-    width: 12%;
+    width: 26%;
     padding: 5px;
     text-align: center;
     left: 1;
     right: 0;
     margin: 0 50px;
-    top: 44%;
+    top: 46%;
     position: absolute;
+}
+/*HERO STYLE ENDS*/
+
+/*PAGE STYLE STARTS CONTENT AND HEADINGS*/
+.wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  
+.pageSection {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.pageSection > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid #142d4e;
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.page-section > div {
+    flex: 0 0 77%;
+}
+  
+.pageSection p {
+    margin-bottom: 20px;
+}
+  
+
+    
 }
