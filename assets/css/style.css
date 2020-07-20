@@ -81,8 +81,9 @@ header nav ul li a {
     left: 1;
     right: 0;
     margin: 0 50px;
-    top: 54%;
+    top: 60%;
     position: absolute;
+    
 }
 
 .me {
@@ -156,19 +157,19 @@ header nav ul li a {
 }
 
 .surf-report {
-    background-image: url("/assets/images/surfreport.jpg");
+    background-image: url("../images/surfreport.jpg");
 }
 .led-wall {
-    background-image: url("/assets/images/ledwall.jpg");
+    background-image: url("../images/ledwall.jpg");
 }
 .pastel-puzzles {
-    background-image: url("/assets/images/pastelpzzl.jpg");
+    background-image: url("../images/pastelpzzl.jpg");
 }
 .run-buddy {
-    background-image: url("/assets/images/runbuddy.png");
+    background-image: url("../images/runbuddy.png");
 }
 .xpensifi {
-    background-image: url("/assets/images/xpensifi.png");
+    background-image: url("../images/xpensifi.png");
 }
 
 .grid-item:first-child {
@@ -215,3 +216,36 @@ footer address a:hover {
     color: #142d4e;
 }
 /*FOOTER STYLE ENDS*/
+
+@media screen and (max-width: 980px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+    }
+  
+    header nav {
+      justify-content: center;
+    }
+  
+    .pageSection > h2,
+    .pageSection > div {
+      flex: 0 0 100%;
+    }
+  
+    .pageSection > h2 {
+      border-right: none;
+      border-bottom: 4px solid ;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      text-align: left;
+      font-size: 7vw;
+    }
+  }

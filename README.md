@@ -10,15 +10,15 @@ the link to my deployed app is : https://gonzalezl13.github.io/Professional-Port
 
 
 The challenge included an acceptance critetria which is; 
-<img src="/assets/images/acceptance.png">
+<img src="./assets/images/acceptance.png">
 
 Below is a mock up of how it needed to look like.
-<img src="/assets/images/demo.gif">
+<img src="./assets/images/demo.gif">
 
 Below is how my challenge looks.
-<img src="/assets/images/challenge.gif">
+<img src="./assets/images/challenge.gif">
 
 I did add a picture at the end of the project as well. 
-<img src="/assets/images/challenge2.png">
+<img src="./assets/images/challenge2.png">
 
 
