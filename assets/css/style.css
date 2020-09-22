@@ -12,6 +12,7 @@ body {
 }
 
 /*HEADER STYLE STARTS*/
+
 header {
     background-color: #142d4e;
     display: flex;
@@ -25,17 +26,14 @@ header h1 {
     margin: 10px 0;
     padding: 3px 3px 3px 50px;
     background-color: #b6c8dd;
-    
-    
 }
 
 header a {
     text-decoration: none;
-
 }
 
 header nav {
-    margin:25px 50px 0 0;
+    margin: 25px 50px 0 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -44,7 +42,7 @@ header nav {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;    
+    justify-content: center;
     align-items: center;
     list-style: none;
 }
@@ -54,14 +52,16 @@ header nav ul li a {
     margin: 10px;
     font-size: 20px;
     color: #b6c8dd;
-    
 }
+
 .link {
     border-bottom: 3px solid #b6c8dd;
 }
+
 /*HEADER STYLE ENDS*/
 
 /*HERO STYLE*/
+
 .hero {
     height: 400px;
     width: 100%;
@@ -83,27 +83,26 @@ header nav ul li a {
     margin: 0 50px;
     top: 60%;
     position: absolute;
-    
 }
 
 .me {
-    padding: 10px ;
+    padding: 10px;
     margin: 40px 80px;
     top: 50%;
     display: flex;
     align-items: stretch;
 }
+
 /*HERO STYLE ENDS*/
 
 /*PAGE STYLE STARTS CONTENT AND HEADINGS*/
+
 .wrapper {
     max-width: 88%;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-
-  
 .pageSection {
     margin: 25px 0;
     padding: 10px 0;
@@ -114,7 +113,7 @@ header nav ul li a {
     justify-content: space-between;
 }
 
-.pageSection > h2 {
+.pageSection>h2 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
@@ -123,17 +122,18 @@ header nav ul li a {
     line-height: 1.1;
 }
 
-.pageSection > div {
+.pageSection>div {
     flex: 0 0 77%;
 }
-  
+
 .pageSection p {
     margin-bottom: 20px;
 }
-  
+
 /*PAGE STYLE CONTENT AND HEADINGS ENDS*/
-    
+
 /*GRID CONTAINER SECTION*/
+
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -159,15 +159,19 @@ header nav ul li a {
 .surf-report {
     background-image: url("../images/surfreport.jpg");
 }
+
 .led-wall {
     background-image: url("../images/ledwall.jpg");
 }
+
 .pastel-puzzles {
-    background-image: url("../images/pastelpzzl.jpg");
+    background-image: url("../images/msk.png");
 }
+
 .run-buddy {
     background-image: url("../images/runbuddy.png");
 }
+
 .xpensifi {
     background-image: url("../images/xpensifi.png");
 }
@@ -182,19 +186,19 @@ header nav ul li a {
     padding: 4px 8px;
 }
 
-
 .grid-item h4 {
     font-size: 1.1rem;
 }
 
 .grid-item:hover {
     background-color: #00000000;
-  }
+}
+
 /*GRID CONTAINER ENDS*/
 
-
 /*FOOTER STYLE BEGINS*/
-footer address{
+
+footer address {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -205,7 +209,7 @@ footer address{
 footer address a {
     display: inline-block;
     text-decoration: none;
-    color:#b6c8dd ;
+    color: #b6c8dd;
     font-size: 1.2rem;
     background-color: #142d4e;
     padding: 10px;
@@ -215,37 +219,33 @@ footer address a:hover {
     background-color: #b6c8dd;
     color: #142d4e;
 }
+
 /*FOOTER STYLE ENDS*/
 
 @media screen and (max-width: 980px) {
     header {
-      padding: 0 0 10px 0;
-      justify-content: center;
-      text-align: center;
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
     }
-  
     header h1 {
-      width: 100%;
-      padding: 5px;
-      margin-bottom: 10px;
-      font-size: 10vw;
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 10vw;
     }
-  
     header nav {
-      justify-content: center;
+        justify-content: center;
     }
-  
-    .pageSection > h2,
-    .pageSection > div {
-      flex: 0 0 100%;
+    .pageSection>h2, .pageSection>div {
+        flex: 0 0 100%;
     }
-  
-    .pageSection > h2 {
-      border-right: none;
-      border-bottom: 4px solid ;
-      margin-bottom: 20px;
-      padding-bottom: 10px;
-      text-align: left;
-      font-size: 7vw;
+    .pageSection>h2 {
+        border-right: none;
+        border-bottom: 4px solid;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 7vw;
     }
-  }
+}
